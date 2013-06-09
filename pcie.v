@@ -43,36 +43,36 @@ module PCIeController (
 	// Data 
         Data0In,        // Pin A16, A17 - Input
 	Data0Out,	// Pin B14, B15 - Output
-	Data1In,	// Pin A20, A21 - Input
-	Data1Out,	// Pin B18, B19 - Output
-	Data2In,	// Pin A24, A25 - Input
-	Data2Out,	// Pin B22, B23 - Output
-	Data3In,	// Pin A28, A29 - Input
-	Data3Out,	// Pin B26, B27 - Output
-	Data4In,	// Pin A32, A33 - Input
-	Data4Out, 	// Pin B30, B31 - Output
-	Data5In,	// Pin A36, A37 - Input
-	Data5Out,	// Pin B34, B35 - Output
-	Data6In,	// Pin A40, A41 - Input
-	Data6Out,	// Pin B38, B39 - Output
-	Data7In,	// Pin A44, A45 - Input
-	Data7Out,	// Pin B42, B43 - Output
-        Data8In,        // Pin A16, A17 - Input
-        Data8Out,       // Pin B14, B15 - Output
-        Data9In,        // Pin A20, A21 - Input
-        Data9Out,       // Pin B18, B19 - Output
-        Data10In,       // Pin A24, A25 - Input
-        Data10Out,      // Pin B22, B23 - Output
-        Data11In,       // Pin A28, A29 - Input
-        Data11Out,      // Pin B26, B27 - Output
-        Data12In,       // Pin A32, A33 - Input
-        Data12Out,      // Pin B30, B31 - Output
-        Data13In,       // Pin A36, A37 - Input
-        Data13Out,      // Pin B34, B35 - Output
-        Data14In,       // Pin A40, A41 - Input
-        Data14Out,      // Pin B38, B39 - Output
-        Data15In,       // Pin A44, A45 - Input
-        Data15Out       // Pin B42, B43 - Output
+	Data1In,	// Pin A21, A22 - Input
+	Data1Out,	// Pin B19, B20 - Output
+	Data2In,	// Pin A25, A26 - Input
+	Data2Out,	// Pin B23, B24 - Output
+	Data3In,	// Pin A29, A30 - Input
+	Data3Out,	// Pin B27, B28 - Output
+	Data4In,	// Pin A35, A36 - Input
+	Data4Out, 	// Pin B33, B34 - Output
+	Data5In,	// Pin A39, A40 - Input
+	Data5Out,	// Pin B37, B38 - Output
+	Data6In,	// Pin A43, A44 - Input
+	Data6Out,	// Pin B41, B42 - Output
+	Data7In,	// Pin A47, A48 - Input
+	Data7Out,	// Pin B45, B46 - Output
+        Data8In,        // Pin A52, A53 - Input
+        Data8Out,       // Pin B50, B51 - Output
+        Data9In,        // Pin A56, A57 - Input
+        Data9Out,       // Pin B54, B55 - Output
+        Data10In,       // Pin A60, A61 - Input
+        Data10Out,      // Pin B58, B59 - Output
+        Data11In,       // Pin A64, A65 - Input
+        Data11Out,      // Pin B62, B63 - Output
+        Data12In,       // Pin A66, A67 - Input
+        Data12Out,      // Pin B64, B65 - Output
+        Data13In,       // Pin A72, A73 - Input
+        Data13Out,      // Pin B70, B71 - Output
+        Data14In,       // Pin A76, A77 - Input
+        Data14Out,      // Pin B78, B79 - Output
+        Data15In,       // Pin A80, A81 - Input
+        Data15Out       // Pin B78, B79 - Output
 );
 
 // JTAG
