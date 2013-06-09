@@ -1,6 +1,6 @@
 // The Nameless GPU
 //
-// Copyright (C) 2013 Matthew Brades and Jacob Holt.
+// Copyright (C) 2013 Jacob Holt.
 // All rights reserved.
 //
 // Permission to use and/or modify without permission is given with the following conditions:
