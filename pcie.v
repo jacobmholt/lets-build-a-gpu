@@ -2,24 +2,13 @@
 //
 // Copyright (C) 2013 Jacob Holt & Matthew Brades.
 // All rights reserved.
-//
-// Permission to use and/or modify without permission is given with the following conditions:
-// 1) You do not make any money from the code provided directly, i.e. You do not sell the GPU - fabricated, or in source/BIT form.
-// 2) You do not claim this code (the entire GPU's code) as entirely your own effort.
-// 3) You do not hold us responsible for any damage caused to your computer.
-// 4) You do not modify the terms of this licence.
-//
-// If you need to use this code for purposes which the above licence
-// does not grant, then feel free to contact Matthew at
-// thelumpit<at>yahoo.co.uk
-//
-// That's the legal stuff over with.
+// This code is licenced under the NGPUL, file ngpul.txt,
+// which you should have recieved with this file.
 //
 // TODO:
-// 1) Actually assign the correct pin numbers to the lanes
-// 2) Pad out the controller to be vaguely functional
-// 3) (Wishful thinking) Achieve complete PCIe compatibility.
-// 4) (Very wishful thinking) Get an article on Tom's Hardware about this.
+// 1) Pad out the controller to be vaguely functional
+// 2) (Wishful thinking) Achieve complete PCIe compatibility.
+// 3) (Very wishful thinking) Get an article on Tom's Hardware about this.
 //
 // PCB NOTES:
 // Connect up clock using 1xLM311.
