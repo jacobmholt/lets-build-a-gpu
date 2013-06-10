@@ -8,7 +8,6 @@
 5) You do not modify the terms of this licence.
 6) Any of the above condition can be revoked/changed by the unanimous agreement of the copyright holders.
 7) Any distribution of the work must include this licence, or the words NGPUPL and a link to the github repository (github.com/jacoman/lets-build-a-gpu)
-8) You use the work soley on Desktop Computers or Workstations (A computer that's primary usage is via a conventional Monitor and Keyboard)
 If you wish to use the work for purposes which the above licence
 does not grant, then feel free to contact Matthew at
 thelumpit<at>yahoo<dot>co<dot>uk (Coding/Developement)
