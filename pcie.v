@@ -3,7 +3,7 @@
 // Copyright (C) 2013 Jacob Holt & Matthew Brades.
 // All rights reserved.
 // This code is licenced under the NGPUL, file ngpul.txt,
-// which you should have recieved with this file.
+// which you should have recieved with this code. If not, please email Jacob at jacob.matthew.holt@gmail.com
 //
 // TODO:
 // 1) Pad out the controller to be vaguely functional
