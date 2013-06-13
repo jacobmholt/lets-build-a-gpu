@@ -23,8 +23,8 @@ module PCIeController (
 	JTAGTestMode,	// Pin A8 - Input
 	JTAGReset,	// Pin B9 - Input
 	// System Management Bus
-	SMBusClock, 	// Pin B5 - In/Out
-	SMBusData, 	// Pin B6 - In/Out
+	SMBusClock, 	// Pin B5 - Output
+	SMBusData, 	// Pin B6 - Output
 	// Link
 	Stable,		// Pin B17 - Input
 	// Clock
@@ -65,54 +65,54 @@ module PCIeController (
 );
 
 // JTAG
-input 	reg	JTAGClock;
-input 	reg	JTAGDataInput;
+input 	wire	JTAGClock;
+input 	wire	JTAGDataInput;
 output 	reg	JTAGDataOutput;
-input 	reg	JTAGTestMode;
-input 	reg	JTAGReset;
+input 	wire	JTAGTestMode;
+input 	wire	JTAGReset;
 
 // System Management Bus
 output 	reg	SMBusClock;
 output 	reg	SMBusData;
 
 // Link
-input 	reg	Stable;
+input 	wire	Stable;
 
 // Clock
-input 	reg	Clock;
+input 	wire	Clock;
 
 // Data
-input 	reg	Data0In;
+input 	wire	Data0In;
 output 	reg	Data0Out;
-input   reg	Data1In;
+input   wire	Data1In;
 output  reg	Data1Out;
-input   reg	Data2In;
+input   wire	Data2In;
 output  reg	Data2Out;
-input   reg	Data3In;
+input   wire	Data3In;
 output  reg	Data3Out;
-input   reg	Data4In;
+input   wire	Data4In;
 output  reg	Data4Out;
-input   reg	Data5In;
+input   wire	Data5In;
 output  reg	Data5Out;
-input   reg	Data6In;
+input   wire	Data6In;
 output  reg	Data6Out;
-input   reg	Data7In;
+input   wire	Data7In;
 output  reg	Data7Out;
-input   reg	Data8In;
+input   wire	Data8In;
 output  reg	Data8Out;
-input   reg	Data9In;
+input   wire	Data9In;
 output  reg	Data9Out;
-input   reg	Data10In;
+input   wire	Data10In;
 output  reg	Data10Out;
-input   reg	Data11In;
+input   wire	Data11In;
 output  reg	Data11Out;
-input   reg	Data12In;
+input   wire	Data12In;
 output  reg	Data12Out;
-input   reg	Data13In;
+input   wire	Data13In;
 output  reg	Data13Out;
-input   reg	Data14In;
+input   wire	Data14In;
 output  reg	Data14Out;
-input   reg	Data15In;
+input   wire	Data15In;
 output  reg	Data15Out;
 
 always @ (posedge JTAGClock)
