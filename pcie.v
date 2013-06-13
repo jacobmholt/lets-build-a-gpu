@@ -65,53 +65,58 @@ module PCIeController (
 );
 
 // JTAG
-input 	JTAGClock;
-input 	JTAGDataInput;
-output 	JTAGDataOutput;
-input 	JTAGTestMode;
-input 	JTAGReset;
+input 	reg	JTAGClock;
+input 	reg	JTAGDataInput;
+output 	reg	JTAGDataOutput;
+input 	reg	JTAGTestMode;
+input 	reg	JTAGReset;
+
 // System Management Bus
-inout 	SMBusClock;
-inout 	SMBusData;
+output 	reg	SMBusClock;
+output 	reg	SMBusData;
+
 // Link
-input 	Stable;
+input 	reg	Stable;
+
 // Clock
-input 	Clock;
+input 	reg	Clock;
+
 // Data
-input 	Data0In;
-output 	Data0Out;
-input   Data1In;
-output  Data1Out;
-input   Data2In;
-output  Data2Out;
-input   Data3In;
-output  Data3Out;
-input   Data4In;
-output  Data4Out;
-input   Data5In;
-output  Data5Out;
-input   Data6In;
-output  Data6Out;
-input   Data7In;
-output  Data7Out;
-input   Data8In;
-output  Data8Out;
-input   Data9In;
-output  Data9Out;
-input   Data10In;
-output  Data10Out;
-input   Data11In;
-output  Data11Out;
-input   Data12In;
-output  Data12Out;
-input   Data13In;
-output  Data13Out;
-input   Data14In;
-output  Data14Out;
-input   Data15In;
-output  Data15Out;
+input 	reg	Data0In;
+output 	reg	Data0Out;
+input   reg	Data1In;
+output  reg	Data1Out;
+input   reg	Data2In;
+output  reg	Data2Out;
+input   reg	Data3In;
+output  reg	Data3Out;
+input   reg	Data4In;
+output  reg	Data4Out;
+input   reg	Data5In;
+output  reg	Data5Out;
+input   reg	Data6In;
+output  reg	Data6Out;
+input   reg	Data7In;
+output  reg	Data7Out;
+input   reg	Data8In;
+output  reg	Data8Out;
+input   reg	Data9In;
+output  reg	Data9Out;
+input   reg	Data10In;
+output  reg	Data10Out;
+input   reg	Data11In;
+output  reg	Data11Out;
+input   reg	Data12In;
+output  reg	Data12Out;
+input   reg	Data13In;
+output  reg	Data13Out;
+input   reg	Data14In;
+output  reg	Data14Out;
+input   reg	Data15In;
+output  reg	Data15Out;
 
 always @ (posedge JTAGClock)
 begin
 	JTAGDataOutput = JTAGDataInput;
 end
+endmodule
