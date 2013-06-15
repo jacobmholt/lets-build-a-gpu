@@ -1,0 +1,31 @@
+-- This VHDL was converted from Verilog using the
+-- Icarus Verilog VHDL Code Generator 0.9.6  (v0_9_6)
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use std.textio.all;
+
+-- Generated from Verilog module HDMIController (hdmi.v:12)
+entity HDMIController is
+  port (
+    CEC : inout std_logic;
+    Clock : in std_logic;
+    Data0 : inout std_logic;
+    Data1 : inout std_logic;
+    Data2 : inout std_logic;
+    I2CClock : in std_logic;
+    I2CData : inout std_logic
+  );
+end entity; 
+
+-- Generated from Verilog module HDMIController (hdmi.v:12)
+architecture FromVerilog of HDMIController is
+begin
+  CEC <= 'Z';
+  Data0 <= 'Z';
+  Data1 <= 'Z';
+  Data2 <= 'Z';
+  I2CData <= 'Z';
+end architecture;
+
